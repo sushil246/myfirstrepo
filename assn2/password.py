@@ -14,7 +14,7 @@ def passwordvalidation(passwd):
                 capchar = True
             elif ((i=="$") or (i=="@") or (i=="#")):
                 special = True
-            elif(i>="0") and (i<="9")) :
+            elif((i>="0") and (i<="9")) :
                 integer = True
     if (capchar and char and special and integer):
         return True
